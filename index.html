@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cheking list proves lliures 2020</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="chekingLists.css">
+	<script type="text/javascript" src="checkingLists.js"></script>
+</head>
+<body>
+	<div class="principal flex-container">
+		<h1>Proves lliures 2020</h1>
+		<form class="flex-container">
+			<div class="linia">
+				<input type="checkbox" name="matricula" onclick="eoi_tatxa('documentMatricula',0)">
+				<label for="matricula" id="documentMatricula">Matrícula telemàtica</label>			
+			</div>
+			<div class="linia">
+				<input type="checkbox" name="residencia" onclick="eoi_tatxa('residencia', 1)">
+				<label for="residencia" id="residencia">Certificat d'empadronament</label>
+			</div>
+			<div class="linia">
+				<input type="checkbox" name="dni" onclick="eoi_tatxa('dni', 2)">
+				<label for="dni" id="dni">DNI</label>
+			</div>		
+			<div class="linia">
+				<input type="checkbox" name="fotos" onclick="eoi_tatxa('fotos', 3)">
+				<label for="fotos" id="fotos">Fotos</label>
+			</div>		
+			<div class="linia">
+				<input type="checkbox" name="edat" onclick="eoi_tatxa('edat', 4)">
+				<label for="edat" id="edat">Edat (2004/2006)</label>
+			</div>	
+			<div class="linia">
+				<input type="checkbox" name="dadesPersonals" onclick="eoi_tatxa('dadesPersonals', 5)">
+				<label for="dadesPersonals" id="dadesPersonals">Autorització dades personals</label>
+			</div>	
+			<div class="linia">
+				<input type="checkbox" name="obExp" onclick="eoi_tatxa('obExp', 6)">
+				<label for="obExp" id="obExp">Obertura Expedient</label>
+			</div>	
+			<div class="linia">
+				<input type="checkbox" name="servGen" onclick="eoi_tatxa('servGen', 7)">
+				<label for="servGen" id="servGen">Serveis Generals</label>
+			</div>	
+			<div class="linia">
+				<input type="checkbox" name="dretsExamen" onclick="eoi_tatxa('dretsExamen', 8)">
+				<label for="dretsExamen" id="dretsExamen">Drets d'examen</label>
+			</div>	
+			<div class="linia">
+				<input type="checkbox" name="trasllat" onclick="eoi_tatxa('trasllat', 9)">
+				<label for="trasllat" id="trasllat">Trasllat d'expedient</label>
+			</div>	
+			<div class="separacio"></div>
+		</form>
+	</div>
+</body>
+</html>

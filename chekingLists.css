@@ -1,0 +1,53 @@
+body{
+	background-color: #2e2e2e;
+	color: white;
+}
+
+.principal{
+	max-width: 800px;
+	margin: auto;
+	font-family: sans-serif;
+	height: 100vh;
+	padding: 10px;
+}
+
+h1{
+	font-size: 8vh;
+}
+
+.linia{
+	display: block;
+	font-size: 5vh;
+}
+
+input[type="checkbox"] {
+	width: 5vh;
+	height: 5vh;
+	vertical-align: middle;
+}
+
+label{
+	vertical-align: middle;
+}
+
+.flex-container{
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.flex-container > form{
+	flex-grow: 1;
+}
+
+.tatxat{
+	text-decoration: line-through;
+	opacity: 0.2;
+}
+
+.arxivat{
+	order: 1;
+}
+
+.separacio{
+	flex-grow: 1;
+}
