@@ -47,3 +47,15 @@ label{
 .separacio{
 	flex-grow: 1;
 }
+
+@media (max-width: 640px){
+    
+    h1{
+        font-size: 6vh;
+    }
+
+    .linia{
+    	font-size: 3vh;
+    }
+}
+
