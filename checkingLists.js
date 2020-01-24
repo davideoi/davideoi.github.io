@@ -1,6 +1,5 @@
 
-function eoi_tatxa(etiqueta, numero=100){
-	// document.getElementById(etiqueta).classList.toggle("tatxat")
+function eoi_tatxa(numero=100){
 	document.getElementsByTagName("label")[numero].classList.toggle("tatxat")
 	document.getElementsByClassName("linia")[numero].classList.toggle("arxivat")
 }
