@@ -51,11 +51,22 @@ label{
 @media (max-width: 640px){
     
     h1{
-        font-size: 6vh;
+        font-size: 5vh;
+        padding-left: 15px;
     }
 
     .linia{
     	font-size: 3vh;
+    	padding-left: 15px;
     }
+
+	input[type="checkbox"] {
+		width: 3vh;
+		height: 3vh;
+	}   
+
+	body{
+		width: auto;
+	} 
 }
 
