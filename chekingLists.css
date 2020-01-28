@@ -35,6 +35,27 @@ label{
 	flex-grow: 1;
 }
 
+.flex-container button{
+	width: 150px;
+	font-size: 5vh;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	background-color: #3EA366;
+	color: white;
+	border: none;
+	align-self: flex-end;
+}
+
+.flex-container button:hover{
+	background-color: #2a7347;
+	border: none;
+	cursor: pointer;
+}
+
+.flex-container button:focus{
+	outline: none;
+}
+
 .tatxat{
 	text-decoration: line-through;
 	opacity: 0.2;
@@ -67,6 +88,12 @@ label{
 
 	body{
 		width: auto;
-	} 
+		height: 80vh;
+	}
+
+	.flex-container button{
+		font-size: 3vh;
+		margin-right: 15px;
+	}
 }
 
