@@ -26,6 +26,11 @@ label{
 	vertical-align: middle;
 }
 
+a{
+	color: white;
+	text-decoration: none;
+}
+
 .flex-container{
 	display: flex;
 	flex-flow: column nowrap;
